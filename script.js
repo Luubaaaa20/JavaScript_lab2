@@ -59,7 +59,7 @@ Truck.prototype.AssignDriver = function(name, nightDriving, experience) {
     };
 };
 
-\var truck1 = new Truck("green", 5000, 70.5, "Volvo", "FH16");
+var truck1 = new Truck("green", 5000, 70.5, "Volvo", "FH16");
 var truck2 = new Truck("black", 7000, 65.2, "Scania", "R500");
 
 truck1.AssignDriver("Ann", true, 10);
