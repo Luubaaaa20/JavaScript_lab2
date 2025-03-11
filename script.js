@@ -2,10 +2,10 @@
 var car1 = new Object();
 car1.color = "red";
 car1.maxSpeed = 220;
-car1.driver = { name: "Ann", category: "C", personalLimitations: "No driving at night" };
+car1.driver = { name: "Турчин Любов", category: "C", personalLimitations: "No driving at night" };
 car1.tuning = true;
 car1.numberOfAccidents = 0;
-var car2 = { color: "blue", maxSpeed: 180, driver: { name: "Ben", category: "B", personalLimitations: null }, tuning: false, numberOfAccidents: 2 };
+var car2 = { color: "blue", maxSpeed: 180, driver: { name: "Турчин Любов", category: "B", personalLimitations: null }, tuning: false, numberOfAccidents: 2 };
 car1.drive = function() { console.log("I am not driving at night"); };
 car1.drive();
 car2.drive = function() { console.log("I can drive anytime"); };
@@ -27,8 +27,8 @@ Truck.prototype.AssignDriver = function(name, nightDriving, experience) {
 };
 var truck1 = new Truck("black", 5000, 80.5, "Volvo", "FH16"),
     truck2 = new Truck("white", 4500, 75.0, "Scania", "R500");
-truck1.AssignDriver("Ann", true, 10);
-truck2.AssignDriver("Ben", false, 5);
+truck1.AssignDriver("Турчин Любов", true, 10);
+truck2.AssignDriver("Турчин Любов", false, 5);
 truck1.trip();
 truck2.trip();
 class Square {
